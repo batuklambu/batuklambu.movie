@@ -25,7 +25,6 @@ const MovieListing = () => {
         <h2>Movies</h2>
         <div className="movie-container">{renderMovies}</div>
       </div>
-      MovieListing
     </div>
   );
 };
