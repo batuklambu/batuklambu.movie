@@ -5,6 +5,9 @@
     background-color: var(--clr-primary-2);
     cursor: pointer;
     transition: all 0.3s;
+    min-height: 450px;
+    height: 100%;
+    margin: 10px;
        
     }
 
