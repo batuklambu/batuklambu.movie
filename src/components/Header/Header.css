@@ -1,7 +1,6 @@
 @import "//src/common/baseclr.css";
 
 .header{
-
 background-color: var(--clr-primary-1);
 height: 72px;
 padding: 0px 40px;
@@ -19,4 +18,32 @@ justify-content: space-between;
 .user-image,.user-image img{
     width: 38px;
     height: 38px;
+}
+
+.search-bar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    }
+
+.search-bar form{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.search-bar button{
+    padding: 0px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 35px;
+}
+
+input{
+    font-size:1 18px ;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    height: 35px;
+    outline: none;
 }

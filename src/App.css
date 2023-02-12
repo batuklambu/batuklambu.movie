@@ -8,6 +8,7 @@
 
 a{
   text-decoration: none;
+  color: var(--clr-primary-9);
 }
 
 body{
