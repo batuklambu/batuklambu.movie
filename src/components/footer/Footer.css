@@ -1,0 +1,16 @@
+@import "//src/common/colors.css";
+
+.footer{
+    background-color: var(--clr-primary-1);
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-primary-9);
+
+
+
+
+
+}
