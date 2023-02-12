@@ -1,0 +1,15 @@
+@import "//src/common/baseclr.css";
+
+.movie-list  h2 {
+  margin: 20px 0px;
+  color: var(--clr-primary-9);
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  
+
+
+
+
+
