@@ -6,6 +6,7 @@
 - [Technologies used](#technologies-used)
 - [Features](#features)
 - [Getting Started](#getting-started)
+- [Netlify Link
 
 ## About
 
@@ -13,12 +14,11 @@
 
 ## Technologies used
 
-- ReactJS
-- Redux-toolkit
+- React-Js
+- Redux-Toolkit
 - React-Router
 - React-Slick
-
-- css
+- Css
 
 ## Features
 
