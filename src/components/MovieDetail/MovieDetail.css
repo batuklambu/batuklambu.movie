@@ -1,11 +1,11 @@
-@import "//src/common/baseclr.css";
+/* @import "//src/common/baseclr.css"; */
 
-.movie Section{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px 0px;
-    color: var(--clr-primary-9);
-    font-weight: 400;
+.movie-section{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0px;
+  color: var(--clr-primary-9);
+  font-weight: 400;
 }
 
 .movie-rating{
@@ -58,3 +58,18 @@ color: var(--clr-primary-10);
 margin-left: 30px;
   }
     
+  .btn-primary {
+    margin-top: 15px;
+    height: 40px;
+    width: 15%;
+    background-color: var(--clr-primary-4);
+    color: var(--mainWhite);
+    border-color: transparent;
+    text-transform: capitalize ;
+    padding: 0.45rem 0.8rem;
+  display: inline-block;
+  }
+  .btn-primary:hover {
+    background-color: var(--clr-grey-5);
+    color: var(--primaryColor);
+  }

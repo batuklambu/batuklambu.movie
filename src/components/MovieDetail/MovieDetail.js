@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { fetchAsyncMovieOrShowDetail } from '../../features/movies/movieSlice';
+import { Link } from 'react-router-dom';
 import {
   getSelectedMovieOrShow,
   removeSelectedMovieOrShow,
@@ -20,7 +21,7 @@ const MovieDetail = () => {
   }, [dispatch, imdbID]);
 
   return (
-    <div className="movie-section">
+    <div className="movie-section" style={{ marginTop: '50px' }}>
       {Object.keys(data).length === 0 ? (
         <div>...isLoading</div>
       ) : (
@@ -65,6 +66,9 @@ const MovieDetail = () => {
                 <span>{data.Awards}</span>
               </div>
             </div>
+            <Link to="/" className="btn btn-primary">
+              back to movie page
+            </Link>
           </div>
           <div className="section-right">
             <img src={data.Poster} alt={data.Title} />

@@ -16,10 +16,9 @@ body{
   /* color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem; */
-  color: ;
 
 }
-
-.container {
+ 
+ .container {
   margin: 0px 40px;
-}
+} 
