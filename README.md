@@ -16,6 +16,8 @@
 - ReactJS
 - Redux-toolkit
 - React-Router
+- React-Slick
+
 - css
 
 ## Features
